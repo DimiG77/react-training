@@ -1,10 +1,10 @@
-import ExpensesData from "./components/ExpensesData";
+import ExpensesData from "./components/Expenses/ExpensesData";
 
 function App() {
   const expenses = [
     {
       id: "e1",
-      title: "Toilet Paper",
+      title: "Chair",
       amount: 94.12,
       date: new Date(2022, 0, 23),
     },
